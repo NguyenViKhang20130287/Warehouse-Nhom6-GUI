@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #dadada;
+}
+
+.container {
+  margin: 5px auto;
+  width: 1200px;
+  padding: 20px;
+  background-color: #faf2d3;
+  border-radius: 6px;
+}
+
+header {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  color: red;
+}
+
+.wrapper {
+  margin-top: 20px;
+}
+
+form.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.update {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+input[type="submit"],
+.update-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.date {
+  margin-bottom: 20px;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.result-nam {
+  text-align: center;
+}
+/*  */
+
+table {
+  border-collapse: collapse;
+  border-color: #faf2d3;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 650px;
+  width: 380px;
+}
+thead {
+  background-color: red;
+  color: #fff;
+}
+tr {
+  border: 1px solid #000;
+}
+td,
+th {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+tr:nth-child(2) {
+  color: red;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
